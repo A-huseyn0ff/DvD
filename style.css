@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+.img1{
+background-image: url(https://bouncingdvdlogo.com/logos/dvdlogo-04.svg);
+width: 300px;
+height: 133px;
+animation-name: img1;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-duration: 15s;
+animation-timing-function: linear;
+ 
+}
+@keyframes img1{
+ 0%{
+ transform: translate(0vh,0vw);
+ }
+ 25%{
+    transform: translate(30vw,85vh);
+ }
+ 50%{
+transform: translate(83vw,30vh);
+ }
+ 75%{
+transform: translate(60vw,0vh);
+ }
+ 100%{
+    transform: translate(0vw,85vh);
+    
+ }
+
+   }
